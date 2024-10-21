@@ -2,6 +2,7 @@ package testSuite;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import pages.todoly.ItemSection;
 import pages.todoly.LoginSection;
 import pages.todoly.MainPage;
 import pages.todoly.MenuSection;
@@ -13,6 +14,7 @@ public class BaseTestTodoLy {
     protected LoginSection loginSection = new LoginSection();
     protected MenuSection menuSection = new MenuSection();
 
+    protected ItemSection itemSection = new ItemSection();
 
     @BeforeEach
     public void openBrowser(){
