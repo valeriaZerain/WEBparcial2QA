@@ -4,6 +4,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import pages.todoist.*;
 import session.Session;
+import testSuite.BaseTestTodoLy;
 
 public class BaseTestTodoist {
 
@@ -12,6 +13,7 @@ public class BaseTestTodoist {
     MenuSectionTodoist menuSectionTodoist = new MenuSectionTodoist();
     AddProjectSection addProjectSection = new AddProjectSection();
     ProjectSection projectSection = new ProjectSection();
+    SettingSection settingSection = new SettingSection();
     @BeforeEach
     public void openBrowser(){
         Session.getInstance().getBrowser().get("https://todoist.com/es");

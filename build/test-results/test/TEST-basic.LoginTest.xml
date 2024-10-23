@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="basic.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-23T16:31:09" hostname="VAL3PC" time="8.618">
-  <properties/>
-  <testcase name="Verify login test is successfully" classname="basic.LoginTest" time="8.618"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[oct. 23, 2024 12:31:10 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-ADVERTENCIA: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
-]]></system-err>
-</testsuite>
