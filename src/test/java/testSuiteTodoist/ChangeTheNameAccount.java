@@ -3,7 +3,6 @@ package testSuiteTodoist;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import testSuite.BaseTestTodoLy;
 
 public class ChangeTheNameAccount extends BaseTestTodoist {
     @Test
